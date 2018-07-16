@@ -17,6 +17,7 @@ Node provides the RESTful API. Angular provides the frontend and accesses the AP
 
 1. Clone the repository: `git clone git@github.com:original4sure/node-todo.git`
 2. Provide a valid .env file at root of your project. Find setup instructions [here](https://www.npmjs.com/package/dotenv) 
-3. Install the application: `npm install`
-4. Start the server: `node server.js`
-5. View in browser at `http://localhost:8080`
+3. Install the application dependencies: `npm install`
+4. Run Application test suite `npm test`. This script also generates a code coverage report using [Istanbul](https://www.npmjs.com/package/istanbul)
+5. Start the server: `node server.js`
+6. View in browser at `http://localhost:8080`
