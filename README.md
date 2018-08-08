@@ -11,10 +11,10 @@ Node provides the RESTful API. Angular provides the frontend and accesses the AP
     - Supported environment types are managed in a . Make sure to provide a valid environment type through your .env file.
     - A local environment has been added by default
 
-- MongoDB: Make sure you have your own environment specific MongoDB database URI provided in your .env file. Check the supported keys [here]
+- MongoDB: Make sure you have your own environment specific MongoDB database URI provided in your .env file. Check the supported keys.
 ## Installation
 
-1. Clone the repository: 
+1. Clone the repository
 2. Provide a valid .env file at root of your project. Find setup instructions [here](https://www.npmjs.com/package/dotenv) 
 3. Install the application dependencies: `npm install`
 4. Run Application test suite `npm test`. This script also generates a code coverage report using [Istanbul](https://www.npmjs.com/package/istanbul)
